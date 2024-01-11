@@ -1,0 +1,22 @@
+header{
+    background-color: #fffff0;    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 400;
+    align-items: flex-end;
+    gap: 20px
+}
+
+nav a{
+    text-decoration: none;
+    color: #0c0b0a;
+}
+
+nav a:hover{
+    font-weight: 700;
+    color:green
+}

@@ -1,0 +1,11 @@
+main{
+    background-color: #fffff0;
+    color: #0c0b0a;
+    padding: 20px;
+}
+
+article{
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: #0c0b0a;
+}
