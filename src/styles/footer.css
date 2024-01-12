@@ -4,10 +4,10 @@ footer{
     padding: 20px;
 }
 
-nav ul{
-    margin: 20px 0px 10px;
+footer nav ul{
+    margin: 20px 25px 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about{
@@ -21,14 +21,33 @@ nav ul{
     margin: 0 100px 0 20px;
 }
 
-img{
+.about h1{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.about .maintxt{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.about .secondarytxt {
+    font-weight: 400;
+    font-size: 14px;
+    color: #F7EAC9;
+}
+
+.about img{
+    width: 600px;
+    height: 350px;
+    object-fit: contain;
     margin: 20px;
-    width: 50%;
+    flex-shrink: 1;
 }
 
 footer a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 15px;
     color: #f4a261;
 }
 
