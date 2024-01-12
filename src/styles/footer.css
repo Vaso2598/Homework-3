@@ -1,3 +1,41 @@
 footer{
+    background-color: #264653;
+    color:#e9c46a ;
     padding: 20px;
+}
+
+nav ul{
+    margin: 20px 0px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about{
+    display: flex;
+}
+
+.about div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 100px 0 20px;
+}
+
+img{
+    margin: 20px;
+    width: 50%;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #f4a261;
+}
+
+footer a:hover{
+    color: #e76f51;
+}
+
+footer nav{
+    border-top: #0f1d22 2px solid;
 }

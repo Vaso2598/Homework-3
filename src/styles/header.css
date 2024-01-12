@@ -1,23 +1,35 @@
 header{
-    background-color: #fffff0;
-    padding: 20px;
-}
-
-.navbar{
+    padding-left: 25px;
+    background-color: #264653;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
     display: flex;
-    justify-content: center;
-    font-size: 25px;
-    font-weight: 400;
-    align-items: flex-end;
-    gap: 20px
+    align-items: center;
 }
 
-nav a{
+header *{
+    display: inline;
+}
+
+header li{
+    margin: 20px
+}
+
+header a{
+    font-size: 1.2rem;
     text-decoration: none;
-    color: #0c0b0a;
+    color: #f4a261;
 }
 
-nav a:hover{
-    font-weight: 700;
-    color:green
+header a:hover{
+    /* font-size: 1.2rem;
+    font-weight: 700; */
+    color:#e76f51
+}
+
+.logo{
+    width: 100px;
 }
