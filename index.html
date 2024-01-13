@@ -4,6 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Vasil Tchanishvili portfolio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="./src//styles/reset.css" />
 		<link rel="stylesheet" href="./src//styles/header.css" />
 		<link rel="stylesheet" href="./src//styles/main.css" />
@@ -12,21 +15,15 @@
 	<body>
 		<header>
 			<a href="#">
-				<object class="logo" data="/src/Images/glasses.svg"></object>
+				<img class="logo" src="/src/Images/glasses.svg" alt="" />
 			</a>
 			<nav>
 				<ul class="navbar">
 					<li>
-						<a href="#">Work</a>
+						<a href="#work">Work</a>
 					</li>
 					<li>
-						<a href="#">About</a>
-					</li>
-					<li>
-						<a href="#">Playground</a>
-					</li>
-					<li>
-						<a href="#">Contact</a>
+						<a href="#about">About</a>
 					</li>
 				</ul>
 			</nav>
@@ -41,7 +38,7 @@
 					</h1>
 					<p>I enjoy creating designs in both 3D and 2D, and currently, I'm really into 3D web development.</p>
 				</div>
-				<div>
+				<div id="work">
 					<article>
 						<div class="post">
 							<h2>01 / Project Name</h2>
@@ -108,7 +105,7 @@
 				</div>
 			</div>
 		</main>
-		<footer>
+		<footer id="about">
 			<div style="max-width: 1280px; margin: auto">
 				<div class="about">
 					<div>

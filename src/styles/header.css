@@ -8,6 +8,7 @@ header{
     height: 80px;
     display: flex;
     align-items: center;
+    font-family: "Poppins", sans-serif;
 }
 
 header *{
@@ -31,5 +32,6 @@ header a:hover{
 }
 
 .logo{
-    width: 100px;
+    width: 75px;
+    height: 75px;
 }

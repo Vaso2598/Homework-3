@@ -21,6 +21,7 @@ main{
     align-self: flex-start;
     font-size: 40px;
     font-weight: 500;
+    font-family: "Poppins", sans-serif;
 }
 
 .intro p{
@@ -28,9 +29,10 @@ main{
     /* border: 5px black solid; */
     /* background-color: green; */
     align-self: flex-end;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 400;
     color: #264653b0;
+    font-family: "Poppins", sans-serif;
 }
 
 article{
@@ -39,6 +41,7 @@ article{
     border: 2px #0f1d224b solid;
     display: flex;
     justify-content: space-between;
+    font-family: "Poppins", sans-serif;
 }
 
 .post{
@@ -61,7 +64,7 @@ article{
 
 .post .secondarytxt{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     color: #264653b0;
 }
 

@@ -2,6 +2,7 @@ footer{
     background-color: #264653;
     color:#e9c46a ;
     padding: 20px;
+    font-family: "Poppins", sans-serif;
 }
 
 footer nav ul{
@@ -28,12 +29,12 @@ footer nav ul{
 
 .about .maintxt{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .about .secondarytxt {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     color: #F7EAC9;
 }
 
