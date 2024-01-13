@@ -1,16 +1,10 @@
-# Homework 2
+# Homework 3
 
 A Simple HTML Front-End Project
 
 ## Description
 
-This homework is a simple demonstration of creating a basic front-end using HTML. It includes a structured HTML file with minimal styling using three pages of HTML and serves as a starting point for building more complex web applications.
-
-## Features
-
-- Homepage
-- Video
-- Contact page
+This homework is a simple demonstration of creating a basic front-end using HTML. It includes a structured HTML file with CSS styling using single page of HTML and serves as a starting point for building more complex web applications.
 
 ## Installation
 
